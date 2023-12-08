@@ -25,6 +25,13 @@ h2 {
     font-size: 18px;
 }
 
+li.recipecard
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 img {
     margin: auto;
     padding: 1rem;
@@ -32,6 +39,19 @@ img {
     display: block;
     max-width: 600px;
     width: 50%;
+}
+
+.recipecard {
+    width: 25%;
+    height: 30%;
+    background-color: #c5e0d7;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+
 }
 
 .content {
@@ -43,7 +63,7 @@ img {
 .ingredients {
     display: inline-block;
     padding: 2rem;
-    border: 1px dotted darkslategray;
+    border: 2px dotted darkslategray;
     width: 30%;
     min-height: 100%;
     box-sizing: border-box;
